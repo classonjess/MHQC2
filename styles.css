@@ -45,15 +45,20 @@ html{
         padding-top: 0px;
     }
 
+    h1.head{
+        padding-top: 0px;
+        margin-bottom: 0px;
+    }
+
     .mission{
         flex-direction: column;
         padding-top: 1rem;
     }
 
     .mission #whit{
-        margin-left: 0;
+        margin-left: 0px;
         margin-top: 1rem;
-        margin-bottom: 0;
+        margin-bottom: 0px;
         width: 80%;
         height: 17rem;
         align-self: center;
@@ -61,11 +66,21 @@ html{
 
     .mission p{
        font-size: 0.2rem;
-       width: 80%;
-       padding-bottom: 5rem;
+       width: 85%;
+       padding-bottom: 6rem;
        margin-top: 0;
-       padding-top: 0.5rem;
-       
+    }
+    
+    div.mission p{
+        padding-top: 2rem;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    div#photos{
+        margin-top: 4rem;
+        gap: 0px;
+        padding-bottom: 0rem;
     }
 
     #events{
@@ -74,9 +89,16 @@ html{
     }
 
     h2 em{
-        line-height: 1.5;
+        line-height: 1.6;
         font-size: 0.9rem;
-        width: 70%;
+        width: 78%;
+        font-family: none;
+        font-weight: lighter;
+    }
+
+    #events h2{
+        margin-top: 0px;
+        margin-bottom: 0px;
     }
 
     #events #insta{
@@ -85,18 +107,20 @@ html{
        height: 1.1rem;
     }
 
-    #photos img {
+    #three {
+        display: none;
+    }
+
+    #six {
         display: none;
     }
     
-
     footer {
         text-align: center;
-       
       }
     
     .content .copyright{
-        font-size: .625rem;
+        font-size: 0.8rem;
         color: black;
     }
 
