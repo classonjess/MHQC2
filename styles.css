@@ -36,18 +36,14 @@ html{
 
     .head em{
         font-size: 1rem;
-        word-spacing: 0;
+        word-spacing: 0.3rem;
         margin-top: 0;
-    }
-
-    .head.h1{
-        margin-top: 0px;
-        padding-top: 0px;
     }
 
     h1.head{
         padding-top: 0px;
         margin-bottom: 0px;
+        font-family: "Alegreya Sans";
     }
 
     .mission{
@@ -78,7 +74,7 @@ html{
     }
 
     div#photos{
-        margin-top: 4rem;
+        margin-top: 2.8rem;
         gap: 0px;
         padding-bottom: 0rem;
     }
@@ -91,9 +87,8 @@ html{
     h2 em{
         line-height: 1.6;
         font-size: 0.9rem;
-        width: 78%;
-        font-family: none;
-        font-weight: lighter;
+        width: 80%;
+        font-family: "Alegreya Sans";
     }
 
     #events h2{
@@ -102,9 +97,9 @@ html{
     }
 
     #events #insta{
-       margin-left: 4rem;
-       margin-top: 2.1rem;
-       height: 1.1rem;
+       margin-left: 8.3rem;
+       margin-top: 2rem;
+       height: 1.3rem;
     }
 
     #three {
@@ -249,8 +244,10 @@ footer {
     font-size: 1rem;
     font-family:"M PLUS 1p";
     font-style: italic;
+    font-family: "Alegreya Sans";
   }
   
   footer .copyright {
     flex-grow: 1;
+    text-decoration: none;
   }
